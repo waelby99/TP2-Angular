@@ -1,0 +1,10 @@
+<h1>{{titre}}</h1>
+<img [src]="tabCandidats[0].image" alt=""/>
+nom:{{tabCandidats[0].nom}}
+<input type="checkbox" value="Independant" [checked]="!tabCandidats[0].parti" disabled/>Independant
+nbfollowers :{{tabCandidats[0].nb}}
+<button (click)="onfollow(0)">Follow</button><br>
+
+
+
+

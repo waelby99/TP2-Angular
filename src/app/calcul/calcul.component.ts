@@ -23,10 +23,10 @@ onKeyup(event:KeyboardEvent){
 this.f=(<HTMLInputElement>event.target).value;
 }
 onClick(event:MouseEvent){
-  var  x =parseInt(this.l);
+  var  x=parseInt(this.l);
   var y=parseInt(this.f);
   this.p=x+y;
-  
+ 
 }
 
   constructor() { }

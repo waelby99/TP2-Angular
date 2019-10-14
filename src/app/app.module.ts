@@ -6,17 +6,24 @@ import { BindingComponentComponent } from './binding-component/binding-component
 import { TableauComponent } from './tableau/tableau.component';
 import { PersonneComponent } from './personne/personne.component';
 import { CalculComponent } from './calcul/calcul.component';
-
+import { CandidatViewComponent } from './candidat-view/candidat-view.component';
+import { Tp3Component } from './tp3/tp3.component';
+import { ProfilComponent } from './profil/profil.component';
+import {FormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
     BindingComponentComponent,
     TableauComponent,
     PersonneComponent,
-    CalculComponent
+    CalculComponent,
+    CandidatViewComponent,
+    Tp3Component,
+    ProfilComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
