@@ -1,0 +1,8 @@
+<h1>{{titre}}</h1>
+
+
+<label>donner un entier</label> <input #t1 type="number"name="t1" [value]="value"  (keyup)="onKey($event)"/>
+<p>le carre est:{{c}}</p>
+<label>donner un entier</label><input #t2 type="number"   (keyup)="onKeyup($event)"/>
+<p>somme={{p}}</p>
+<button (click)="onClick($event)">somme</button>
